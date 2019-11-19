@@ -5,6 +5,6 @@
 
 @Test
 Scenario: New EasyJet users can be created
-	Given I have reached the booking confimraiton page of the DA Funnel
+	Given I have reached the booking confirmation page of the DA Funnel
 	When i have completed the new user creation form
 	Then i am shown as being logged on to the EasyJet website
